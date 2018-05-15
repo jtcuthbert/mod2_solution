@@ -20,6 +20,19 @@ p {
   color: white;
 }
 
+div#container {
+  background-color: #00FFFF;
+  position: relative;
+  top: 60px;
+}
+p {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  float: right;
+}
+
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -157,5 +170,19 @@ p {
     width: 100%;
   }
 }
+
+div#container {
+  background-color: #00FFFF;
+}
+
+#box {
+  background-color: gray;
+  border: 10px solid black;
+  box-sizing: border-box;
+
+}
+#p1 {
+  background-color: #A52A2A;
+
 
 </style>
